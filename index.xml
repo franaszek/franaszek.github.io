@@ -11,69 +11,99 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>zajęcia 1</title>
-      <link>https://franaszek.github.io/project/po2017/zajecia-1/</link>
-      <pubDate>Wed, 01 Mar 2017 14:02:31 +0100</pubDate>
+      <title>zajęcia 3</title>
+      <link>https://franaszek.github.io/project/zajecia-3/</link>
+      <pubDate>Tue, 14 Mar 2017 14:02:31 +0100</pubDate>
       
-      <guid>https://franaszek.github.io/project/po2017/zajecia-1/</guid>
-      <description></description>
+      <guid>https://franaszek.github.io/project/zajecia-3/</guid>
+      <description>&lt;h2&gt;2017-15-03&lt;/h2&gt;
+
+&lt;p&gt;&lt;h4&gt;Lab&lt;/h4&gt;
+Zainstalujemy:
+Java 8: &lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&#34;&gt;http://www.oracle.com/...&lt;/a&gt;
+I Eclipse: &lt;a href=&#34;http://www.eclipse.org/downloads/&#34;&gt;http://www.eclipse.org/...&lt;/a&gt;
+Lub IDEA: &lt;a href=&#34;https://www.jetbrains.com/idea/download/&gt;&lt;a href=&#34;https://www.jetbrains.com/..&#34; target=&#34;_blank&#34;&gt;https://www.jetbrains.com/..&lt;/a&gt;.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Zrobimy pierwszy projekt w IDE (Integrated Development Environment) i spróbujemy go skompilować poprzez IDE oraz z konsoli.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Lab i Ćwiczenia&lt;/h4&gt;
+Będziemy rozwiązywać różne problemy algorytmiczne.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Programowanie Obiektowe</title>
-      <link>https://franaszek.github.io/project/object-oriented-programming/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <title>zajęcia 2</title>
+      <link>https://franaszek.github.io/project/zajecia-2/</link>
+      <pubDate>Wed, 08 Mar 2017 14:02:31 +0100</pubDate>
       
-      <guid>https://franaszek.github.io/project/object-oriented-programming/</guid>
-      <description>&lt;p&gt;
-&lt;h3&gt;2017-15-03&lt;/h3&gt;
-&lt;p&gt;
+      <guid>https://franaszek.github.io/project/zajecia-2/</guid>
+      <description>&lt;h2&gt;2017-08-03&lt;/h2&gt;
 
+&lt;p&gt;&lt;h4&gt;Lab&lt;/h4&gt;
+Na zajęciach zaprojektujemy grę karcianą (brydż lub poker).
+&lt;br /&gt;
+zasady gry w brydża: &lt;a href=&#34;http://www.zasadygry.pl/brydz_zasady_gry_13_1.htm&#34;&gt;http://www.zasadygry.pl/brydz...&lt;/a&gt;
+&lt;br /&gt;
+Napiszemy pierwszy program w java - Na razie używając konsoli, a następnie skompilujemy go:
+&lt;pre&gt;javac &amp;lt;nazwa&amp;gt;.java&lt;/pre&gt;
+i uruchomimy:
+&lt;pre&gt;java &amp;lt;nazwa&amp;gt;&lt;/pre&gt;
+Zapoznamy się z metodą startową &amp;ldquo;main&amp;rdquo; i przećwiczymy działanie parametrów wejściowych :
+&lt;pre&gt;
+public static void main(String[] args) {
+    &amp;hellip;
+}
+&lt;/pre&gt;&lt;/p&gt;
 
-&lt;p&gt;
-&lt;h3&gt;2017-08-03&lt;/h3&gt;
-&lt;p&gt;
-&lt;img src=&#34;img/teaching-po-2017-03-08&#34; /&gt;
-&lt;h5&gt;Lab&lt;/h5&gt;
-Na zajęciach spróbujemy zaprojektować grę karcianą (brydż lub poker).&lt;br /&gt;
-zasady gry w brydża: &lt;a href=&#34;http://www.zasadygry.pl/brydz_zasady_gry_13_1.htm&#34;&gt;http://www.zasadygry.pl/brydz_zasady_gry_13_1.htm&lt;/a&gt;&lt;br /&gt;
-Omówimy również pierwszą pracę domową!
-&lt;h5&gt;Ćwiczenia&lt;/h5&gt;
-Na ćwiczeniach zaprojektujemy grę Monopol :)
+&lt;p&gt;Omówimy również pierwszą pracę domową! (dokończenie projektu gry karcianej)
+&lt;hr /&gt;
+&lt;h4&gt;Ćwiczenia&lt;/h4&gt;
+Na ćwiczeniach rozwiążemy problem podziału skarbów przez bilba. (zadanie z kolokwium z 2001 roku).
+&lt;br /&gt;&lt;/p&gt;
 
+&lt;hr /&gt;
 
-&lt;p&gt;
-&lt;h3&gt;2017-01-03&lt;/h3&gt; 
-&lt;p&gt;
-&lt;img src=&#34;img/teaching-po-2017-03-01&#34; /&gt;
-&lt;h5&gt;Lab&lt;/h5&gt;
-Na zajęciach omówimy projektowanie obiektowe na przykładzie &#34;Pojazdów&#34; - struktury drzewiastej reprezentującej dziedziczenie. Wprowadziliśmy:
+&lt;p&gt;&lt;h4&gt;Pierwsza praca domowa (1pkt)&lt;/h4&gt;
+Zaprojektuj w DIA diagram klas reprezentujący grę w pokera. Uwzględnij klasy abstrakcyjne, publiczność/prywatność metod (+, -, #), generalizację i agregację.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>zajęcia 1</title>
+      <link>https://franaszek.github.io/project/zajecia-1/</link>
+      <pubDate>Wed, 01 Mar 2017 14:02:31 +0100</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-1/</guid>
+      <description>&lt;h2&gt;2017-01-03&lt;/h2&gt; 
+
+&lt;p&gt;&lt;h4&gt;Lab&lt;/h5&gt;
+&lt;div&gt;
+Na zajęciach omówimy projektowanie obiektowe na przykładzie &amp;ldquo;Pojazdów&amp;rdquo; - struktury drzewiastej reprezentującej dziedziczenie.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wprowadzimy:
 &lt;lu&gt;
  &lt;li&gt;notację pudełkową dla klas&lt;/li&gt;
  &lt;li&gt;strzałki do wyrażania podobieństwa (dziedziczenia)&lt;/li&gt;
  &lt;li&gt;podział na cechy/czynności&lt;/li&gt;
  &lt;li&gt;pojęcia abstrakcyjne (oznaczamy wielką literą A w kółku)&lt;/li&gt;
 &lt;/lu&gt;
+&lt;br /&gt;
 Będziemy pracować z &lt;a href=&#34;https://sourceforge.net/projects/dia-installer/&#34;&gt;DIA&lt;/a&gt;&lt;br /&gt;
 Dla zainteresowanych, więcej o diagramach klas można poczytać np tutaj:
-&lt;a href=&#34;https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/&#34;&gt;https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/&lt;/a&gt;
-
-&lt;/p&gt;
-&lt;p&gt;
+&lt;a href=&#34;https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/&#34;&gt;https://www.ibm.com/...&lt;/a&gt;
+&lt;br /&gt;
 Polecam też ważniaka:
-&lt;a href=&#34;http://wazniak.mimuw.edu.pl/index.php?title=Programowanie_obiektowe&#34;&gt;http://wazniak.mimuw.edu.pl/index.php?title=Programowanie_obiektowe&lt;/a&gt;
-
-&lt;/p&gt;
-&lt;p&gt;
-A przede wszystkim moodle: 
-&lt;a href=&#34;https://moodle.mimuw.edu.pl/course/view.php?id=14&#34;&gt;https://moodle.mimuw.edu.pl/course/view.php?id=14&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;h5&gt;Ćwiczenia&lt;/h5&gt;
+&lt;a href=&#34;http://wazniak.mimuw.edu.pl/index.php?title=Programowanie_obiektowe&#34;&gt;http://wazniak.mimuw.edu.pl/...&lt;/a&gt;
+&lt;br /&gt;
+A przede wszystkim moodle:
+&lt;a href=&#34;https://moodle.mimuw.edu.pl/course/view.php?id=14&#34;&gt;https://moodle.mimuw.edu.pl/...&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4&gt;Ćwiczenia&lt;/h4&gt;
 Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wykorzystamy Kolejkę i Stos do zaimplementowania BFS i DFS&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
