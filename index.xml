@@ -11,7 +11,33 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>zajęcia 3</title>
+      <title>Zajęcia 4 - Klasy</title>
+      <link>https://franaszek.github.io/project/zajecia-4/</link>
+      <pubDate>Fri, 17 Mar 2017 14:53:39 +0100</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-4/</guid>
+      <description>&lt;h2&gt;2017-08-22&lt;/h2&gt;
+
+&lt;h2&gt;Laboratorium&lt;/h2&gt;
+
+&lt;!-- opowiemy o jdk, jre, jvm i garbage collector. --&gt;  
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Praca domowa: Sito Arystotelesa&lt;/h3&gt;
+
+&lt;p&gt;Dla podanej liczby n zwróć największą liczbę pierwszą &amp;lt;= n.&lt;/p&gt;
+
+&lt;p&gt;Szkielet projektu (do zaimportowania w eclipse) można znaleźć &lt;a href=&#34;https://franaszek.github.io/download/project.zip&#34;&gt;tutaj&lt;/a&gt; Szkielet zawiera testy automatyczne - omówimy ten temat na zajęciach.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Rozwiązanie należy wysłać na mój adres (w temacie: &amp;ldquo;[PO ex2] Imię Nazwisko&amp;rdquo;), do dnia 29.03.2017. Email ma zawierać wyeksportowany projekt do formatu zip.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>zajęcia 3 - Java</title>
       <link>https://franaszek.github.io/project/zajecia-3/</link>
       <pubDate>Tue, 14 Mar 2017 14:02:31 +0100</pubDate>
       
@@ -22,7 +48,7 @@
 Zainstalujemy:
 Java 8: &lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&#34;&gt;http://www.oracle.com/...&lt;/a&gt;
 I Eclipse: &lt;a href=&#34;http://www.eclipse.org/downloads/&#34;&gt;http://www.eclipse.org/...&lt;/a&gt;
-Lub IDEA: &lt;a href=&#34;https://www.jetbrains.com/idea/download/&gt;&lt;a href=&#34;https://www.jetbrains.com/..&#34; target=&#34;_blank&#34;&gt;https://www.jetbrains.com/..&lt;/a&gt;.&lt;/a&gt;&lt;/p&gt;
+Lub IDEA: &lt;a href=&#34;https://www.jetbrains.com/idea/download/&#34;&gt;https://www.jetbrains.com/...&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Zrobimy pierwszy projekt w IDE (Integrated Development Environment) i spróbujemy go skompilować poprzez IDE oraz z konsoli.&lt;/p&gt;
 
@@ -32,7 +58,7 @@ Będziemy rozwiązywać różne problemy algorytmiczne.&lt;/p&gt;
     </item>
     
     <item>
-      <title>zajęcia 2</title>
+      <title>zajęcia 2 - Projektowanie</title>
       <link>https://franaszek.github.io/project/zajecia-2/</link>
       <pubDate>Wed, 08 Mar 2017 14:02:31 +0100</pubDate>
       
@@ -64,12 +90,12 @@ Na ćwiczeniach rozwiążemy problem podziału skarbów przez bilba. (zadanie z 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;h4&gt;Pierwsza praca domowa (1pkt)&lt;/h4&gt;
-Zaprojektuj w DIA diagram klas reprezentujący grę w pokera. Uwzględnij klasy abstrakcyjne, publiczność/prywatność metod (+, -, #), generalizację i agregację.&lt;/p&gt;
+Zaprojektuj w DIA diagram klas reprezentujący grę w pokera. Uwzględnij klasy abstrakcyjne, publiczność/prywatność metod (+, -, #), generalizację i agregację. Termin oddania : 2017-03-15.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>zajęcia 1</title>
+      <title>zajęcia 1 - Wstęp</title>
       <link>https://franaszek.github.io/project/zajecia-1/</link>
       <pubDate>Wed, 01 Mar 2017 14:02:31 +0100</pubDate>
       
@@ -104,6 +130,37 @@ A przede wszystkim moodle:
 Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wykorzystamy Kolejkę i Stos do zaimplementowania BFS i DFS&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wyniki</title>
+      <link>https://franaszek.github.io/project/points/</link>
+      <pubDate>Wed, 01 Mar 2017 00:03:17 +0100</pubDate>
+      
+      <guid>https://franaszek.github.io/project/points/</guid>
+      <description>&lt;p&gt;Za małe prace domowe można zdobyć maksymalnie 12-15 punktów, jednak ostateczna liczba przyznanych punktów studenta wynosi:&lt;/p&gt;
+
+&lt;pre&gt;Math.min(student.zdobytePkt(), 10);&lt;/pre&gt;
+
+&lt;p&gt;Bieżące wyniki:&lt;/p&gt;
+
+&lt;table&gt;
+                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;&lt;/tr&gt;          
+&lt;!-- BM --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- BP --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- DM --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- FM --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- KJ --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- KP --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- KV --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- MP --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- RA --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- ŚR --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- TP --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;!-- WK --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+&lt;/table&gt;
 </description>
     </item>
     
@@ -941,16 +998,6 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
 
 &lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://franaszek.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://franaszek.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
