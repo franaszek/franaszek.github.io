@@ -28,7 +28,7 @@
 
 &lt;p&gt;Dla podanej liczby n zwróć największą liczbę pierwszą &amp;lt;= n.&lt;/p&gt;
 
-&lt;p&gt;Szkielet projektu (do zaimportowania w eclipse) można znaleźć &lt;a href=&#34;https://franaszek.github.io/download/project.zip&#34;&gt;tutaj&lt;/a&gt; Szkielet zawiera testy automatyczne - omówimy ten temat na zajęciach.&lt;/p&gt;
+&lt;p&gt;Szkielet projektu (do zaimportowania w eclipse) można znaleźć &lt;a href=&#34;https://franaszek.github.io/download/project.zip&#34;&gt;tutaj&lt;/a&gt; Szkielet zawiera testy automatyczne - omówimy ten temat na zajęciach. Program powinien być uruchamialny za pomocą klasy &lt;pre&gt;Program&lt;/pre&gt;Implementacja algorytmu ma się znaleźć w klasie &lt;pre&gt;EratosthenesSieve&lt;/pre&gt; Nie krępujcie się używać dowolnych klas pomocniczych.&lt;/p&gt;
 
 &lt;hr /&gt;
 
