@@ -19,6 +19,11 @@
       <description>&lt;h2&gt;2017-08-22&lt;/h2&gt;
 
 &lt;h2&gt;Laboratorium&lt;/h2&gt;
+Wprowadzimy jUnit oraz strukturę projektu. Omówimy zadania Sito Arystotelesa i Ułamek.
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;Na rozgrzewkę zaimplementujemy rozkład liczby na czynniki pierwsze. Następnie wykonamy projekt gry &amp;ldquo;Monopoly&amp;rdquo;.&lt;/p&gt;
 
 &lt;!-- opowiemy o jdk, jre, jvm i garbage collector. --&gt;  
 
@@ -30,9 +35,25 @@
 
 &lt;p&gt;Szkielet projektu (do zaimportowania w eclipse) można znaleźć &lt;a href=&#34;https://franaszek.github.io/download/project.zip&#34;&gt;tutaj&lt;/a&gt; Szkielet zawiera testy automatyczne - omówimy ten temat na zajęciach. Program powinien być uruchamialny za pomocą klasy &lt;pre&gt;Program&lt;/pre&gt;Implementacja algorytmu ma się znaleźć w klasie &lt;pre&gt;EratosthenesSieve&lt;/pre&gt; Nie krępujcie się używać dowolnych klas pomocniczych.&lt;/p&gt;
 
+&lt;h3&gt;Praca domowa: Ułamek&lt;/h3&gt;
+ 
+
+&lt;p&gt;Należy zaplementować klasę “Ulamek”, (proszę bez polskich znaków tym razem), która w konstruktorze przyjmie wartości ‘licznik’ i ‘mianownik’ typu ‘long’.
+Ułamek ma posiadać dwie operacje:&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;
+public Ulamek dodaj(Ulamek ulamek)
+&lt;/pre&gt;&lt;pre&gt;
+public Ulamek pomnóż(Ulamek ulamek)
+&lt;/pre&gt;&lt;pre&gt;
+public String toString()
+&lt;/pre&gt;
+Dla chętnych: metody odejmij i podziel.
+Należy również zaimplementować testy automatyczne (junit), dla każdej z powyższych operacji (po 3 testy do operacji) UWAGA: co zrobić z przypadkami skrajnymi? Warto dodać testy, które to sprawdzą.&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;p&gt;Rozwiązanie należy wysłać na mój adres (w temacie: &amp;ldquo;[PO ex2] Imię Nazwisko&amp;rdquo;), do dnia 29.03.2017. Email ma zawierać wyeksportowany projekt do formatu zip.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Rozwiązania należy wysłać na mój adres (w temacie: &amp;ldquo;[PO ex2] Imię Nazwisko&amp;rdquo;), do dnia 29.03.2017. Email ma zawierać wyeksportowany projekt do formatu zip. &lt;/b&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -146,20 +167,20 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;p&gt;Bieżące wyniki:&lt;/p&gt;
 
 &lt;table&gt;
-                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;&lt;/tr&gt;          
-&lt;!-- BM --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- BP --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- DM --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- FM --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- KJ --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- KP --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- KV --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- MP --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- RA --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- ŚR --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- TP --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
-&lt;!-- WK --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;              
+                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;/tr&gt;          
+&lt;!-- BM --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- BP --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- DM --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- FM --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- KJ --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- KP --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- KV --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- MP --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- RA --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- ŚR --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- TP --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- WK --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
 &lt;/table&gt;
 </description>
     </item>
