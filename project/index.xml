@@ -7,8 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Fri, 17 Mar 2017 14:53:39 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Mar 2017 13:19:09 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zajecia 5 - Dziedziczenie</title>
+      <link>https://franaszek.github.io/project/zajecia-5/</link>
+      <pubDate>Tue, 28 Mar 2017 13:19:09 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-5/</guid>
+      <description>&lt;h2&gt;2017-08-22&lt;/h2&gt;
+
+&lt;h2&gt;Laboratorium&lt;/h2&gt;
+
+&lt;p&gt;&lt;h3&gt;Zadanie &amp;ldquo;Wielomian&amp;rdquo;&lt;/h3&gt;
+Zaimplementuj &amp;lsquo;wielomian&amp;rsquo; jednej zmiennej i operacje na nim:
+&lt;pre&gt;Wielomian dodaj(Wielomian)&lt;/pre&gt;
+&lt;pre&gt;String toString()&lt;/pre&gt;
+&lt;pre&gt;Wielomian mnozenie(Wielomian)&lt;/pre&gt;
+&lt;pre&gt;Double wartoscWPkt(Double pkt)&lt;/pre&gt;
+Różne konstruktory: jako jednomian, lub z tablicy współczynników.
+dla chętnych:
+&lt;pre&gt;Wielomian podziel(Wielomian)&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Zadanie &amp;ldquo;Bufor cykliczny&amp;rdquo;&lt;/h3&gt;
+Należy zaimplementować bufor cykliczny, który będzie obsługiwał operacje wstawiania/usuwania z początku i końca, obliczał liczbę elementów w buforze, sprawdzał czy jest pusty. Implementacja na tablicy.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Zajęcia 4 - Klasy</title>
