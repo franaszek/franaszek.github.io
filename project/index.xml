@@ -7,8 +7,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Tue, 28 Mar 2017 13:19:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 04 Apr 2017 22:34:56 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zajecia 6</title>
+      <link>https://franaszek.github.io/project/zajecia-6/</link>
+      <pubDate>Tue, 04 Apr 2017 22:34:56 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-6/</guid>
+      <description>&lt;h2&gt;2017-08-22&lt;/h2&gt;
+
+&lt;h2&gt;Laboratorium&lt;/h2&gt;
+
+&lt;p&gt;JVM, JRE, JDK?&lt;/p&gt;
+
+&lt;p&gt;Zadanie: klasa Konto.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;SKLEP&lt;/h3&gt;
+
+&lt;p&gt;Napisz Program “sklep.jar”, który będzie umożliwiał zakupy (standard in/out) wybranych produktów (z co najmniej dziesięciu). Produkty dzielą się na dwa rodzaje: produkty na sztuki i produkty na wagę.&lt;/p&gt;
+
+&lt;p&gt;Program po uruchomieniu za pomocą
+&lt;pre&gt;java -jar sklep.jar&lt;/pre&gt;
+przedstawi się, wypisze bieżącą datę i godzinę oraz listę produktów wraz z dostępnością oraz ceną, np.:&lt;/p&gt;
+
+&lt;p&gt;Pomidory, cena: 9,99zł/kg, dostępne 200kg&lt;/p&gt;
+
+&lt;p&gt;Kawa ziarnista, opakowanie 0,5kg, cena: 41,99zł, dostępne 16 sztuk.&lt;/p&gt;
+
+&lt;p&gt;następnie program zapyta użytkownika o pojemność portfela, którą ten wpisze, np:&lt;/p&gt;
+
+&lt;p&gt;2340&lt;/p&gt;
+
+&lt;p&gt;lub&lt;/p&gt;
+
+&lt;p&gt;1234,5&lt;/p&gt;
+
+&lt;p&gt;ale już nie&lt;/p&gt;
+
+&lt;p&gt;1234.5&lt;/p&gt;
+
+&lt;p&gt;Następnie użytkownik będzie mógł rozpocząć zakupy. Przykładowe polecenie zakupu:&lt;/p&gt;
+
+&lt;p&gt;kup Pomidory 23,564&lt;/p&gt;
+
+&lt;p&gt;lub&lt;/p&gt;
+
+&lt;p&gt;kup pomidory 23,564&lt;/p&gt;
+
+&lt;p&gt;lub&lt;/p&gt;
+
+&lt;p&gt;kup Kawa ziarnista 5&lt;/p&gt;
+
+&lt;p&gt;Po każdym zakupie sklep poinformuje o zawartości portfela. Proszę pamiętać o dokładnej walidacji wprowadzanych danych.&lt;/p&gt;
+
+&lt;p&gt;użytkownik będzie kontynuował zakupy aż wpisze “end”. Po tym poleceniu sklep wypisze listę zakupionych produktów, ilość wydanych pieniędzy oraz czas trwania zakupów.&lt;/p&gt;
+
+&lt;p&gt;Do nauczenia
+Daty (Date, LocalDateTime, Calendar, System.currentTimeInMilis()), Scanner, jar&lt;/p&gt;
+
+&lt;p&gt;Rozwiązania należy spakować w zip (nr indeksu).zip i umieścić w folderze (tutaj pojawi się link do folderu) do 2017.04.12, godz 23.59
+w zip ma się znajdować plik sklep.jar, oraz wyeksportowany projekt z eclipse lub idea.&lt;/p&gt;
+
+&lt;p&gt;Zachęcam do korzystania z testów automatycznych (te jednak nie są tym razem obowiązkowe)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>zajecia 5 - Dziedziczenie</title>
@@ -193,16 +259,16 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 
 &lt;table&gt;
                 &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;/tr&gt;          
-&lt;!-- BM --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- BP --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- BM --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- BP --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- DM --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- FM --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- KJ --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 
 &lt;!-- KP --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- KV --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;?&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- MP --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- KV --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- MP --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- RA --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- ŚR --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
 &lt;!-- TP --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
