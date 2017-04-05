@@ -69,7 +69,7 @@ przedstawi się, wypisze bieżącą datę i godzinę oraz listę produktów wraz
 &lt;p&gt;Do nauczenia
 Daty (Date, LocalDateTime, Calendar, System.currentTimeInMilis()), Scanner, jar&lt;/p&gt;
 
-&lt;p&gt;Rozwiązania należy spakować w zip sklep&lt;em&gt;(inicjały i nr indeksu).zip i umieścić w folderze (tutaj pojawi się link do folderu) do 2017.04.12, godz 23.59
+&lt;p&gt;Rozwiązania należy spakować w zip sklep&lt;em&gt;(inicjały i nr indeksu).zip i umieścić w folderze &lt;a href=&#34;https://drive.google.com/drive/folders/0B9OvVI7-iiR2U2hUWnlJT04zdDg&#34;&gt;na google drive&lt;/a&gt; do 2017.04.12, godz 23.59
 w zip ma się znajdować plik sklep&lt;/em&gt;(inicjały i nr indeksu).jar, oraz wyeksportowany projekt (o nazwie toż samej).&lt;/p&gt;
 
 &lt;p&gt;Zachęcam do korzystania z testów automatycznych (te jednak nie są tym razem obowiązkowe)&lt;/p&gt;
