@@ -7,8 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Tue, 04 Apr 2017 22:34:56 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Apr 2017 14:47:08 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zajecia 7</title>
+      <link>https://franaszek.github.io/project/zajecia-7/</link>
+      <pubDate>Tue, 11 Apr 2017 14:47:08 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-7/</guid>
+      <description>&lt;h1&gt;UWAGA: w dniu 2017-04-12 laboratoria nie odbędą się!&lt;/h1&gt;
+
+&lt;h2&gt;Ćwiczenia (odbędą się, standardowo w sali 3160)&lt;/h2&gt;
+
+&lt;p&gt;Zakończymy przykład na wielomiany.&lt;/p&gt;
+
+&lt;p&gt;Rozwiążemy zadania przygotowawcze do kolokwium. Stare kolokwia można znaleźć &lt;a href=&#34;https://moodle.mimuw.edu.pl/course/view.php?id=14#section-20&#34;&gt;tutaj&lt;/a&gt;. Warto również zapoznać się z &lt;a href=&#34;https://moodle.mimuw.edu.pl/mod/page/view.php?id=635&#34;&gt;tym&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>zajecia 6</title>
@@ -69,8 +85,8 @@ przedstawi się, wypisze bieżącą datę i godzinę oraz listę produktów wraz
 &lt;p&gt;Do nauczenia
 Daty (Date, LocalDateTime, Calendar, System.currentTimeInMilis()), Scanner, jar&lt;/p&gt;
 
-&lt;p&gt;Rozwiązania należy spakować w zip sklep&lt;em&gt;(inicjały i nr indeksu).zip i umieścić w folderze &lt;a href=&#34;https://drive.google.com/drive/folders/0B9OvVI7-iiR2U2hUWnlJT04zdDg&#34;&gt;na google drive&lt;/a&gt; do 2017.04.12, godz 23.59
-w zip ma się znajdować plik sklep&lt;/em&gt;(inicjały i nr indeksu).jar, oraz wyeksportowany projekt (o nazwie toż samej).&lt;/p&gt;
+&lt;p&gt;Rozwiązania należy spakować w zip sklep_(inicjały i nr indeksu).zip i umieścić w folderze &lt;a href=&#34;https://drive.google.com/drive/folders/0B9OvVI7-iiR2U2hUWnlJT04zdDg&#34;&gt;na google drive&lt;/a&gt; do 2017.04.19, godz 23.59
+w zip ma się znajdować plik sklep_(inicjały i nr indeksu).jar, oraz wyeksportowany projekt (o nazwie toż samej).&lt;/p&gt;
 
 &lt;p&gt;Zachęcam do korzystania z testów automatycznych (te jednak nie są tym razem obowiązkowe)&lt;/p&gt;
 </description>
