@@ -7,8 +7,90 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Tue, 11 Apr 2017 14:47:08 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Apr 2017 15:28:14 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zajecia 8</title>
+      <link>https://franaszek.github.io/project/zajecia-8/</link>
+      <pubDate>Mon, 24 Apr 2017 15:28:14 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-8/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-04-26&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;
+&lt;b&gt;Zadanie&lt;/b&gt; Hierarchia wyrażeń logicznych&lt;/p&gt;
+
+&lt;p&gt;Napisz hierarchię wyrażeń logicznych (analogiczne do wyrażeń arytmetycznych)&lt;/p&gt;
+
+&lt;p&gt;stałe: True, False&lt;/p&gt;
+
+&lt;p&gt;zmienna: X&lt;/p&gt;
+
+&lt;p&gt;operatory 2-argumentowe: and, or, xor, &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;operator 1-argumentowy: not, ?&lt;/p&gt;
+
+&lt;p&gt;Operacje:
+&lt;pre&gt;
+public void printOut();
+public boolean countForValue(boolean x); //również wypisze wartość na konsolę.
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Uwaga&lt;/b&gt; Zadanie za jeden punkt. Kto skończy na Laboratorium, ten od razu zgarnie, kto nie skończy, ten zgarnie na kolejnych zajęciach.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;Gra w Blackjacka (nasze Oczko, czy Dwadzieścia-jeden) jest grą karcianą, polegającą na zbieraniu kart tak, by uzbierać więcej oczek na kartach niż rywale, ale nie więcej niż 21. Dokładne reguły gry bywają różne, my przyjmiemy w tym zadaniu pewne ich uproszczenie.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;h2&gt;Praca domowa: Sklep 2&lt;/h2&gt;
+&lt;b&gt;Za dwa punkty&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Do naszej aktualnej implementacji należy dodać rozszeżenie: dostawca. Od teraz, włączając sklep, będzie można wpisać &amp;ldquo;end&amp;rdquo; - zakończy program, lub wybrać jeden z dwóch trybów, odpowiednio, za pomocą komend: &amp;ldquo;klient&amp;rdquo;, aby wejść w tryb klienta, i tam bez większych zmian, lub &amp;ldquo;dostawca&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;W przypadku wpisania innego polecenia niż klient/dostawca/end, program ma wyrzucić elegancki wyjątek (własny).&lt;/p&gt;
+
+&lt;p&gt;Po wybraniu trybu &amp;ldquo;dostawca&amp;rdquo;, za pomocą poleceń można dodawać produkty do sklepu:
+&lt;pre&gt;
+dostarcz pomidory na_wage 10 1000
+&lt;/pre&gt;
+gdzie &amp;ldquo;pomidory&amp;rdquo; to nazwa produktu, &amp;ldquo;10&amp;rdquo; to cena, a &amp;ldquo;1000&amp;rdquo; to ilość, lub:
+&lt;pre&gt;
+dostarcz laptop na_sztuki 3999 100
+&lt;/pre&gt;
+gdzie &amp;ldquo;laptop&amp;rdquo; to nazwa, &amp;ldquo;3999&amp;rdquo; to cena, a &amp;ldquo;100&amp;rdquo; to liczba sztuk.&lt;/p&gt;
+
+&lt;p&gt;Proszę zwróćcie uwagę na polecenia &amp;ldquo;na_wage&amp;rdquo; oraz &amp;ldquo;na_sztuki&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;operacja &amp;ldquo;end&amp;rdquo; pozwala wrócić do wyboru klient/dostawca.&lt;/p&gt;
+
+&lt;p&gt;W trybie &amp;ldquo;klient&amp;rdquo; można wykonać polecenie &amp;ldquo;wypisz&amp;rdquo; które wypisuje stan sklepu (nazwa produktu, pisana małymi literami, data (i godzina z sekundami) dodania produktu, ilość/liczba oraz cena, np:&lt;/p&gt;
+
+&lt;pre&gt;
+Pomidory, dodane 2017.04.26 23:14:23, ilość: 1000kg, cena za kilogram: 10zł
+Laptop, dodane 2017.04.26 23:14:45, liczba: 100, cena za sztukę: 3999zł
+&lt;/pre&gt;
+
+&lt;p&gt;Następnie opracja &amp;ldquo;kup&amp;rdquo;, jak poprzednio (ale mogę pisać wielką bądź małą literą, a nazwy mogą mieć spację) oraz operacja &amp;ldquo;end&amp;rdquo; która pozwala wrócić do trybu wyboru dostawca/klient.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; uwagi&lt;/b&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Jeżeli klient wejdzie do sklepu przed dostawcą, to sklep jest pusty.&lt;/li&gt;
+&lt;li&gt;Nazwy produktów można pisać małą lub wielką literą. Nazwy produktów mogą zawierać spacje!&lt;/li&gt;
+&lt;li&gt;Proszę zadbać o to, aby w programach nie było polskich znaków (nigdzie) i aby programy były w UTF-8.&lt;/li&gt;
+&lt;li&gt;Rozwiązania należy umieścić w tym samym folderze co ostatnio, lecz pod nazwą
+&lt;pre&gt;
+sklep2_(inicjały i numer indeksu).zip
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;tak jak ostatnio w paczce ma być projekt oraz wygenerowany JAR.&lt;/li&gt;
+&lt;li&gt;termin oddania: &lt;b&gt;2017-05-10&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>zajecia 7</title>
@@ -274,22 +356,22 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;p&gt;Bieżące wyniki:&lt;/p&gt;
 
 &lt;table&gt;
-                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;/tr&gt;          
-&lt;!-- BM --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- BP --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- DM --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- FM --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- KJ --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
+                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt;&lt;/tr&gt;          
+&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
+&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
+&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
+&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
 
-&lt;!-- KP --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- KV --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- MP --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- RA --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- ŚR --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
-&lt;!-- TP --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- lody oreo są super --&gt;
+&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
+&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
+&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 
-&lt;!-- WK --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;/tr&gt;               
+&lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 &lt;/table&gt;
 </description>
     </item>
