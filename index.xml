@@ -11,7 +11,60 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>zajecia 8</title>
+      <title>zajęcia 9</title>
+      <link>https://franaszek.github.io/project/zajecia-9/</link>
+      <pubDate>Tue, 09 May 2017 14:39:36 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-9/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-05-10&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;
+&lt;b&gt;Zadanie&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Zaimplementuj interfejsy:
+&lt;pre&gt;
+Generator
+    int daj(); //daje kolejną wartość
+&lt;/pre&gt;
+&lt;pre&gt;
+Filtr
+    void weź(int i);
+&lt;/pre&gt;
+&lt;pre&gt;
+Wypisywacz
+    void wypisz();
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;A następnie klasy implementujące:&lt;/p&gt;
+
+&lt;p&gt;Generator Naturalny, który daje kolejne liczby naturalne.&lt;/p&gt;
+
+&lt;p&gt;Generator Czytelnik, który wczytuje kolejne liczby z wejścia.&lt;/p&gt;
+
+&lt;p&gt;Generator Losowy, który losuje kolejne liczby.&lt;/p&gt;
+
+&lt;p&gt;Filtr Porównywacz: jak dostaje mniejszą liczbę od swojej, to zapamiętuje, a starą posyła do następnego filtra. jak dostaje większą-równą, to posyła dalej.
+ZaślepkaP: dostaje liczbę, tworzy nowy Filtr Porównywacz z tą liczbą.&lt;/p&gt;
+
+&lt;p&gt;Filtr Dzielnik: jak nowa liczba jest wielokrotnością własnej, to nic nie robi, wpp przesyła dalej.&lt;/p&gt;
+
+&lt;p&gt;ZaślepkaD: dostaje liczbę, tworzy nowy Filtr Dzielnik z tą liczbą.&lt;/p&gt;
+
+&lt;p&gt;Następnie zbuduj zestaw generator-filtr zaślepka do posortowania liczb, albo wygenerowania zestawu liczb pierwszych.&lt;/p&gt;
+
+&lt;p&gt;Filtry muszą implementować Wypisywacz, ale zaślepki już nie muszą.&lt;/p&gt;
+
+&lt;p&gt;Dodatkowo, zaimplementuj metodę, która dostaje generator i filtr (nie wie jaki) i wypisze wynik wielokrotnego zastosowania &amp;lsquo;daj&amp;rsquo;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;Zadanie ONP.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>zajęcia 8</title>
       <link>https://franaszek.github.io/project/zajecia-8/</link>
       <pubDate>Mon, 24 Apr 2017 15:28:14 +0200</pubDate>
       
@@ -87,13 +140,13 @@ Laptop, dodane 2017.04.26 23:14:45, liczba: 100, cena za sztukę: 3999zł
 sklep2_(inicjały i numer indeksu).zip
 &lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;tak jak ostatnio w paczce ma być projekt oraz wygenerowany JAR.&lt;/li&gt;
-&lt;li&gt;termin oddania: &lt;b&gt;2017-05-10&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;termin oddania: &lt;b&gt;2017-05-14&lt;/b&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>zajecia 7</title>
+      <title>zajęcia 7</title>
       <link>https://franaszek.github.io/project/zajecia-7/</link>
       <pubDate>Tue, 11 Apr 2017 14:47:08 +0200</pubDate>
       
@@ -109,7 +162,7 @@ sklep2_(inicjały i numer indeksu).zip
     </item>
     
     <item>
-      <title>zajecia 6</title>
+      <title>zajęcia 6</title>
       <link>https://franaszek.github.io/project/zajecia-6/</link>
       <pubDate>Tue, 04 Apr 2017 22:34:56 +0200</pubDate>
       
@@ -175,7 +228,7 @@ w zip ma się znajdować plik sklep_(inicjały i nr indeksu).jar, oraz wyeksport
     </item>
     
     <item>
-      <title>zajecia 5 - Dziedziczenie</title>
+      <title>zajęcia 5 - Dziedziczenie</title>
       <link>https://franaszek.github.io/project/zajecia-5/</link>
       <pubDate>Tue, 28 Mar 2017 13:19:09 +0200</pubDate>
       
@@ -356,20 +409,20 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;p&gt;Bieżące wyniki:&lt;/p&gt;
 
 &lt;table&gt;
-                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt;&lt;/tr&gt;          
-&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
-&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
-&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
-&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
+                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt; &lt;th&gt;Logic&lt;/th&gt; &lt;th&gt;Sklep2&lt;/th&gt;&lt;/tr&gt;           
+&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
+&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
+&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
+&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
 
-&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- lody oreo są super --&gt;
-&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
-&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
-&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- lody oreo są super --&gt;
+&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
+&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
+&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
 
 &lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 &lt;/table&gt;
@@ -591,72 +644,6 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
 &lt;p&gt;Copyright 2016 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Customizing the homepage with widgets</title>
-      <link>https://franaszek.github.io/post/widgets/</link>
-      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
-      
-      <guid>https://franaszek.github.io/post/widgets/</guid>
-      <description>
-
-&lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;About/biography&lt;/li&gt;
-&lt;li&gt;Selected publications&lt;/li&gt;
-&lt;li&gt;Recent publications&lt;/li&gt;
-&lt;li&gt;Recent news/blog posts&lt;/li&gt;
-&lt;li&gt;Projects&lt;/li&gt;
-&lt;li&gt;Selected talks&lt;/li&gt;
-&lt;li&gt;Recent talks&lt;/li&gt;
-&lt;li&gt;Contact&lt;/li&gt;
-&lt;li&gt;Custom widget (demonstrated with the &lt;em&gt;teaching&lt;/em&gt; example)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.&lt;/p&gt;
-
-&lt;p&gt;The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of &lt;code&gt;+++&lt;/code&gt;) for each widget installed in the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting &lt;code&gt;detailed_list = true&lt;/code&gt; in &lt;code&gt;content/home/publications.md&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;add-a-widget-to-the-homepage&#34;&gt;Add a widget to the homepage&lt;/h2&gt;
-
-&lt;p&gt;To add a widget manually, copy the relevant widget from &lt;code&gt;themes/academic/exampleSite/content/home/&lt;/code&gt; to your &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Widget identifiers are set to their respective filenames, so a &lt;code&gt;content/home/about.md&lt;/code&gt; widget can be linked from the navigation bar by setting the relevant URL as &lt;code&gt;&amp;quot;#about&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.&lt;/p&gt;
-
-&lt;h2 id=&#34;using-the-custom-widget&#34;&gt;Using the custom widget&lt;/h2&gt;
-
-&lt;p&gt;You can use the custom widget to create your own home page sections.&lt;/p&gt;
-
-&lt;p&gt;Simply duplicate (copy/paste) and rename the example &lt;em&gt;teaching&lt;/em&gt; file at &lt;code&gt;content/home/teaching.md&lt;/code&gt;. Then edit the section title, weight (refer to &lt;em&gt;Ordering sections&lt;/em&gt; below), and content as desired.&lt;/p&gt;
-
-&lt;p&gt;You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your &lt;code&gt;config.toml&lt;/code&gt;, where the URL will consist of the first title word in lowercase:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[menu.main]]
-    name = &amp;quot;Research&amp;quot;
-    url = &amp;quot;#research&amp;quot;
-    weight = 10
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;remove-a-widget-from-the-homepage&#34;&gt;Remove a widget from the homepage&lt;/h2&gt;
-
-&lt;p&gt;If you do not require a particular widget, you can simply delete any associated files from the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;To remove a navigation link from the top of the page, remove the associated &lt;code&gt;[[menu.main]]&lt;/code&gt; entry in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
-
-&lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
 </description>
     </item>
     

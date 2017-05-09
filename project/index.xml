@@ -7,11 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Mon, 24 Apr 2017 15:28:14 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 14:39:36 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>zajecia 8</title>
+      <title>zajęcia 9</title>
+      <link>https://franaszek.github.io/project/zajecia-9/</link>
+      <pubDate>Tue, 09 May 2017 14:39:36 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-9/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-05-10&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;
+&lt;b&gt;Zadanie&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Zaimplementuj interfejsy:
+&lt;pre&gt;
+Generator
+    int daj(); //daje kolejną wartość
+&lt;/pre&gt;
+&lt;pre&gt;
+Filtr
+    void weź(int i);
+&lt;/pre&gt;
+&lt;pre&gt;
+Wypisywacz
+    void wypisz();
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;A następnie klasy implementujące:&lt;/p&gt;
+
+&lt;p&gt;Generator Naturalny, który daje kolejne liczby naturalne.&lt;/p&gt;
+
+&lt;p&gt;Generator Czytelnik, który wczytuje kolejne liczby z wejścia.&lt;/p&gt;
+
+&lt;p&gt;Generator Losowy, który losuje kolejne liczby.&lt;/p&gt;
+
+&lt;p&gt;Filtr Porównywacz: jak dostaje mniejszą liczbę od swojej, to zapamiętuje, a starą posyła do następnego filtra. jak dostaje większą-równą, to posyła dalej.
+ZaślepkaP: dostaje liczbę, tworzy nowy Filtr Porównywacz z tą liczbą.&lt;/p&gt;
+
+&lt;p&gt;Filtr Dzielnik: jak nowa liczba jest wielokrotnością własnej, to nic nie robi, wpp przesyła dalej.&lt;/p&gt;
+
+&lt;p&gt;ZaślepkaD: dostaje liczbę, tworzy nowy Filtr Dzielnik z tą liczbą.&lt;/p&gt;
+
+&lt;p&gt;Następnie zbuduj zestaw generator-filtr zaślepka do posortowania liczb, albo wygenerowania zestawu liczb pierwszych.&lt;/p&gt;
+
+&lt;p&gt;Filtry muszą implementować Wypisywacz, ale zaślepki już nie muszą.&lt;/p&gt;
+
+&lt;p&gt;Dodatkowo, zaimplementuj metodę, która dostaje generator i filtr (nie wie jaki) i wypisze wynik wielokrotnego zastosowania &amp;lsquo;daj&amp;rsquo;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;Zadanie ONP.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>zajęcia 8</title>
       <link>https://franaszek.github.io/project/zajecia-8/</link>
       <pubDate>Mon, 24 Apr 2017 15:28:14 +0200</pubDate>
       
@@ -87,13 +140,13 @@ Laptop, dodane 2017.04.26 23:14:45, liczba: 100, cena za sztukę: 3999zł
 sklep2_(inicjały i numer indeksu).zip
 &lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;tak jak ostatnio w paczce ma być projekt oraz wygenerowany JAR.&lt;/li&gt;
-&lt;li&gt;termin oddania: &lt;b&gt;2017-05-10&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;termin oddania: &lt;b&gt;2017-05-14&lt;/b&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>zajecia 7</title>
+      <title>zajęcia 7</title>
       <link>https://franaszek.github.io/project/zajecia-7/</link>
       <pubDate>Tue, 11 Apr 2017 14:47:08 +0200</pubDate>
       
@@ -109,7 +162,7 @@ sklep2_(inicjały i numer indeksu).zip
     </item>
     
     <item>
-      <title>zajecia 6</title>
+      <title>zajęcia 6</title>
       <link>https://franaszek.github.io/project/zajecia-6/</link>
       <pubDate>Tue, 04 Apr 2017 22:34:56 +0200</pubDate>
       
@@ -175,7 +228,7 @@ w zip ma się znajdować plik sklep_(inicjały i nr indeksu).jar, oraz wyeksport
     </item>
     
     <item>
-      <title>zajecia 5 - Dziedziczenie</title>
+      <title>zajęcia 5 - Dziedziczenie</title>
       <link>https://franaszek.github.io/project/zajecia-5/</link>
       <pubDate>Tue, 28 Mar 2017 13:19:09 +0200</pubDate>
       
@@ -356,20 +409,20 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;p&gt;Bieżące wyniki:&lt;/p&gt;
 
 &lt;table&gt;
-                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt;&lt;/tr&gt;          
-&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
-&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
-&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
-&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
+                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt; &lt;th&gt;Logic&lt;/th&gt; &lt;th&gt;Sklep2&lt;/th&gt;&lt;/tr&gt;           
+&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
+&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
+&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
+&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
 
-&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- lody oreo są super --&gt;
-&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
-&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
-&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- lody oreo są super --&gt;
+&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
+&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
+&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
 
 &lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 &lt;/table&gt;
