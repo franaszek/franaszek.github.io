@@ -7,11 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Tue, 09 May 2017 14:39:36 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2017 09:38:18 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>zajęcia 9</title>
+      <title>zajęcia 10 - Wyjątki/generyki</title>
+      <link>https://franaszek.github.io/project/zajecia-10/</link>
+      <pubDate>Wed, 17 May 2017 09:38:18 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-10/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-05-17&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;Dzisiaj robimy zadania 1 i 2 z &lt;a href=http://wazniak.mimuw.edu.pl/index.php?title=PO_Wyj%C4%85tki_c.d._-_%C4%87wiczenia&#34;&gt;Ważniaka&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Następnie, zaimplementujmy klasę Para&amp;lt;T1, T2&amp;gt;, która będzie posiadać konstuktor oraz gettery.&lt;/p&gt;
+
+&lt;p&gt;Wykorzystamy klasę Para do własnej implementacji mapy, która zawsze będzie posortowana po kluczu, oraz będzie miała operacje:
+&lt;pre&gt;
+    void put(T1 key, T2 value);
+&lt;/pre&gt;
+&lt;pre&gt;
+    T2 get(T1 key);
+&lt;/pre&gt;
+&lt;pre&gt;
+    void print() // wypisze zawartość mapy w postaci: [key1-&amp;gt;value1, key2-&amp;gt;value2,&amp;hellip;]
+&lt;/pre&gt;
+&lt;hr /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;Zadania: Przestrzeń liniowa nad ciałem K&lt;/p&gt;
+
+&lt;p&gt;Implementacja BST&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>zajęcia 9 - wyjątki</title>
       <link>https://franaszek.github.io/project/zajecia-9/</link>
       <pubDate>Tue, 09 May 2017 14:39:36 +0200</pubDate>
       
@@ -60,6 +93,10 @@ ZaślepkaP: dostaje liczbę, tworzy nowy Filtr Porównywacz z tą liczbą.&lt;/p
 &lt;h2&gt;Ćwiczenia&lt;/h2&gt;
 
 &lt;p&gt;Zadanie ONP.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pojawiło się zadanie laboratoryjne. Proszę gotowe rozwiązania zamieszczać w &lt;a href=&#34;https://drive.google.com/drive/folders/0B9OvVI7-iiR2U2hUWnlJT04zdDg&#34;&gt;tym folderze&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -412,7 +449,7 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
                 &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt; &lt;th&gt;Logic&lt;/th&gt; &lt;th&gt;Sklep2&lt;/th&gt;&lt;/tr&gt;           
 &lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
 &lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
-&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
 &lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
 &lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
 &lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
@@ -420,8 +457,8 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- lody oreo są super --&gt;
 &lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
 &lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
-&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
+&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1,9&lt;/td&gt;        &lt;/tr&gt;       &lt;!-- termin!, dostawca wielką literą! --&gt;       
 &lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
 
 &lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
