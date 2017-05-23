@@ -11,6 +11,60 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>zajęcia 11 - kolekcje</title>
+      <link>https://franaszek.github.io/project/zajecia-11/</link>
+      <pubDate>Fri, 19 May 2017 15:08:20 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-11/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-05-17&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;Książka telefoniczna.&lt;/p&gt;
+
+&lt;p&gt;Zaimplementuj klasę PhoneBook, która będzie posiadać kolekcję kontaktów (Contact), a każdy kontakt będzie posiadał kolekcję telefonów (Phone).&lt;/p&gt;
+
+&lt;p&gt;Wyróżniamy dwa rodzaje telefonów: PrivatePhone oraz BusinessPhone.&lt;/p&gt;
+
+&lt;p&gt;Klasy mają (co najmniej) następujące atrybuty i metody:&lt;/p&gt;
+
+&lt;pre&gt;
+abstract class Phone implements Comparable{
+
+    Phone(String phoneNumber, Contact contact){...}
+    
+    abstract toString(); // zwróci: “imię nazwisko, tel +48 123456789, [Prywatny|Biznesowy]
+
+    abstract int compareTo(Phone phone) {..}
+}
+
+class Contact {
+    private Collection&lt;Phone&gt; phoneNumbers; //kolekcja wszystkich prywatnych i biznesowych numerów
+private String firstName;
+private String sureName;
+}
+
+class PhoneBook {
+    public static void main(String… args) {..}
+    public void printAllNumbers() // metoda wypisze listę wszystkich telefonów z książki adresowej, 
+                                  //posortowanej po nazwisku, imieniu (z uwzględnieniem polskich znaków), 
+                                  //a następnie po private/business, i na końcu po numerze.
+}
+
+&lt;/pre&gt;
+
+&lt;p&gt;Zadanie do oddania na zajęciach, 24 lub 31 maja. na 1 pkt.&lt;/p&gt;
+
+&lt;p&gt;Do porównania z uwzględnieniem polskich znaków: &lt;a href=&#34;http://lmgtfy.com/?q=collator+in+java&#34;&gt;Collator&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;klasa &lt;pre&gt;Zbiór&amp;lt;T&amp;gt;&lt;/pre&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>zajęcia 10 - Wyjątki/generyki</title>
       <link>https://franaszek.github.io/project/zajecia-10/</link>
       <pubDate>Wed, 17 May 2017 09:38:18 +0200</pubDate>
@@ -450,16 +504,16 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
 &lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
 &lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;       &lt;!-- _ zamiast spacji, inna specyfikacja wejścia, po wpisaniu end - wychodzi --&gt;
-&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
-&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
+&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
+&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
 
 &lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- RAR! --&gt;
 &lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;1,5&lt;/td&gt;        &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
-&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 &lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
 &lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1,9&lt;/td&gt;        &lt;/tr&gt;       &lt;!-- termin!, dostawca wielką literą! --&gt;       
-&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;?&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 
 &lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 &lt;/table&gt;
@@ -473,24 +527,6 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
       
       <guid>https://franaszek.github.io/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://franaszek.github.io/teaching/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://franaszek.github.io/teaching/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
