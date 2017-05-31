@@ -7,8 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bartosz Franaszek</copyright>
-    <lastBuildDate>Fri, 19 May 2017 15:08:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 31 May 2017 10:42:32 +0200</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zajęcia 12 - Kolekcje</title>
+      <link>https://franaszek.github.io/project/zajecia-12/</link>
+      <pubDate>Wed, 31 May 2017 10:42:32 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-12/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-05-31&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;Obejrzymy &lt;a href=&#34;https://codility.com/demo/take-sample-test/&#34;&gt;Codility&lt;/a&gt; i spróbujemy wykonać test (dla chętnych, z możliwością punktowania)&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Zadanie:&lt;/b&gt; Zaimplementuj graf, w którego wierzchołkach przechowywane są napisy. Graf powinien udostępniać operację obchodzenia wszerz i w głąb (z wypisywaniem kolejnych odwiedzonych wierzchołków). Jakiej kolekcji użyjesz w tym celu?&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;
+Wskazówka - Do przechowania całego grafu warto wykorzystać TreeMap&lt;E&gt;, zaś do pamiętania sąsiadów TreeSet&lt;E&gt;.  Należy także zdefiniować klasę Wierzchołek ze stosownymi operacjami.
+&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Zadanie:&lt;/b&gt; Zaproponuj interfejs ImmutableSet&lt;E&gt; reprezentujący niezmienialny zbiór (operacje wstawiania i usuwania mają tworzyć nowy zbiór).  Przygotuj implementację tego interfejsu za pomocą drzew BST (niech wszystkie używane pola będą zadeklarowane jako final, wtedy na pewno struktura będzie niezmienialna).  Niech operacje takie jak size() i isEmpty() działają w czasie stałym.  Zauważ, że gdyby to były drzewa zrównoważone (AVL lub czerwono-czarne), to mielibyśmy niezmienialny zbiór z wszystkimi operacjami w czasie logarytmicznym.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+Dla danego grafu, chcemy podzielić jego wierzchołki na możliwie najwięcej niepustych zbiorów, tak by  ten podział miał tę własność, że każda para wierzchołków należących do różnych zbiorów jest połączona krawędzią.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>zajęcia 11 - kolekcje</title>
@@ -16,7 +42,7 @@
       <pubDate>Fri, 19 May 2017 15:08:20 +0200</pubDate>
       
       <guid>https://franaszek.github.io/project/zajecia-11/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;2017-05-17&lt;/h1&gt;
+      <description>&lt;p&gt;&lt;h1&gt;2017-05-24&lt;/h1&gt;
 &lt;h2&gt;Laboratorium&lt;/h2&gt;&lt;/p&gt;
 
 &lt;p&gt;Książka telefoniczna.&lt;/p&gt;
@@ -500,22 +526,22 @@ Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wyk
 &lt;p&gt;Bieżące wyniki:&lt;/p&gt;
 
 &lt;table&gt;
-                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt; &lt;th&gt;Logic&lt;/th&gt; &lt;th&gt;Sklep2&lt;/th&gt;&lt;/tr&gt;           
-&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
-&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
-&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;       &lt;!-- _ zamiast spacji, inna specyfikacja wejścia, po wpisaniu end - wychodzi --&gt;
-&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
-&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
+                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt; &lt;th&gt;Logic&lt;/th&gt; &lt;th&gt;Sklep2&lt;/th&gt;&lt;th&gt;PhoneBook&lt;/th&gt;&lt;/tr&gt;         
+&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
+&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
+&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;       &lt;!-- _ zamiast spacji, inna specyfikacja wejścia, po wpisaniu end - wychodzi --&gt;
+&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
+&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
 
-&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- RAR! --&gt;
-&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;1,5&lt;/td&gt;        &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
-&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
-&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1,9&lt;/td&gt;        &lt;/tr&gt;       &lt;!-- termin!, dostawca wielką literą! --&gt;       
-&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- RAR! --&gt;
+&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;1,5&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
+&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
+&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;    &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;       &lt;!-- termin!, dostawca wielką literą! --&gt;       
+&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 
-&lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
+&lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
 &lt;/table&gt;
 </description>
     </item>
