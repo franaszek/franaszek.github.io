@@ -11,6 +11,40 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>zajęcia 13 - strumienie</title>
+      <link>https://franaszek.github.io/project/zajecia-13/</link>
+      <pubDate>Tue, 06 Jun 2017 15:41:13 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-13/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-06-07&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;JavaFX&lt;/b&gt;
+Zrób prostą aplikację w JavaFX w eclipse, idea lub w netbeans.&lt;/p&gt;
+
+&lt;p&gt;Eclipse: plugin możesz znaleźć &lt;a href=&#34;https://marketplace.eclipse.org/content/efxclipse&#34;&gt;tutaj&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Jak to zrobić w NetBeans, można znaleźć w treści zadania domowego.&lt;/p&gt;
+
+&lt;p&gt;W Idei tutorial można znaleźć &lt;a href=&#34;https://www.jetbrains.com/help/idea/2017.1/preparing-for-javafx-application-development.html#create_project_from_scratch&#34;&gt;tutaj.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dla chętnych: &lt;a href=&#34;http://wazniak.mimuw.edu.pl/index.php?title=PO_Strumienie_-_%C4%87wiczenia&#34;&gt;ćwiczenia ze strumieni.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Proszę wykonajcie tutorial (co najmniej pierwszy) z tej &lt;a href=&#34;http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm&#34;&gt;strony&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Zadanie:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Napisz aplikację, która otworzy i wypisze plik w okienku. (nazwa pliku podana jako argument startowy).&lt;/p&gt;
+
+&lt;p&gt;Dla chętnych: Napisz &lt;b&gt;notatnik&lt;/b&gt;, która otworzy i wypisze (jak wyżej) ale pozwoli też edytować i zapisać nowy tekst w tym samym pliku.
+&lt;hr /&gt;
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;Przygotowanie do egzaminu.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>zajęcia 12 - Kolekcje</title>
       <link>https://franaszek.github.io/project/zajecia-12/</link>
       <pubDate>Wed, 31 May 2017 10:42:32 +0200</pubDate>
@@ -510,39 +544,6 @@ A przede wszystkim moodle:
 Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wykorzystamy Kolejkę i Stos do zaimplementowania BFS i DFS&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wyniki</title>
-      <link>https://franaszek.github.io/project/points/</link>
-      <pubDate>Wed, 01 Mar 2017 00:03:17 +0100</pubDate>
-      
-      <guid>https://franaszek.github.io/project/points/</guid>
-      <description>&lt;p&gt;Za małe prace domowe można zdobyć maksymalnie 10-15 punktów, jednak ostateczna liczba przyznanych punktów studenta wynosi:&lt;/p&gt;
-
-&lt;pre&gt;Math.min(student.zdobytePkt(), 10);&lt;/pre&gt;
-
-&lt;p&gt;Bieżące wyniki:&lt;/p&gt;
-
-&lt;table&gt;
-                &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;KARTY&lt;/th&gt;   &lt;th&gt;UŁAMEK&lt;/th&gt; &lt;th&gt;SITO&lt;/th&gt;&lt;th&gt;SKLEP&lt;/th&gt; &lt;th&gt;JavaVS..&lt;/th&gt; &lt;th&gt;Logic&lt;/th&gt; &lt;th&gt;Sklep2&lt;/th&gt;&lt;th&gt;PhoneBook&lt;/th&gt;&lt;/tr&gt;         
-&lt;!-- MB --&gt;     &lt;tr&gt;&lt;td&gt;385247&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie mogę kupić małą literą. --&gt;                
-&lt;!-- PB --&gt;     &lt;tr&gt;&lt;td&gt;385254&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- metoda &#39;run&#39; mogłaby być krutsza (3x) --&gt;
-&lt;!-- MD --&gt;     &lt;tr&gt;&lt;td&gt;372285&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;       &lt;!-- _ zamiast spacji, inna specyfikacja wejścia, po wpisaniu end - wychodzi --&gt;
-&lt;!-- MF --&gt;     &lt;tr&gt;&lt;td&gt;385423&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie można kupić małą literą, za mało muwiące komunikaty --&gt;
-&lt;!-- JK --&gt;     &lt;tr&gt;&lt;td&gt;359784&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- KK --&gt;     &lt;tr&gt;&lt;td&gt;385830&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- nie akceptuje małą literą, Obszedłeś contains, ale straciłeś wielkie litery :) --&gt;
-
-&lt;!-- PK --&gt;     &lt;tr&gt;&lt;td&gt;371141&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;                       &lt;!-- RAR! --&gt;
-&lt;!-- VK --&gt;     &lt;tr&gt;&lt;td&gt;372360&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;    &lt;td&gt;1,5&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;      &lt;/tr&gt;               &lt;!-- akceptuje produkty tylko małą literą. Nie wiadomo, czy udało się kupić czy nie (przydały by się lepsze komentarze. Można kupić ułamek mleka :D, Twoje rozwiązanie nie jest obiektowe --&gt;
-&lt;!-- PM --&gt;     &lt;tr&gt;&lt;td&gt;385901&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;!-- AR --&gt;     &lt;tr&gt;&lt;td&gt;360949&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;2&lt;/td&gt;  &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;2&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               &lt;!--  --&gt;               
-&lt;!-- RŚ --&gt;     &lt;tr&gt;&lt;td&gt;322227&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;1,7&lt;/td&gt;    &lt;td&gt;1&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;    &lt;td&gt;1,9&lt;/td&gt;    &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;       &lt;!-- termin!, dostawca wielką literą! --&gt;       
-&lt;!-- PT --&gt;     &lt;tr&gt;&lt;td&gt;347283&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;  &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;        &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-
-&lt;!-- KW --&gt;     &lt;tr&gt;&lt;td&gt;373379&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;   &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;1&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;td&gt;0&lt;/td&gt;      &lt;/tr&gt;               
-&lt;/table&gt;
 </description>
     </item>
     
