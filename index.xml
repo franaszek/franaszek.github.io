@@ -11,6 +11,33 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>zajęcia 14</title>
+      <link>https://franaszek.github.io/project/zajecia-14/</link>
+      <pubDate>Wed, 14 Jun 2017 10:06:01 +0200</pubDate>
+      
+      <guid>https://franaszek.github.io/project/zajecia-14/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;2017-06-14&lt;/h1&gt;
+&lt;h2&gt;Laboratorium&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Zadanie:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Zaproponuj interfejs ImmutableSet&lt;E&gt; reprezentujący niezmienialny zbiór (operacje wstawiania i usuwania mają tworzyć nowy zbiór).  Przygotuj implementację tego interfejsu za pomocą drzew BST (niech wszystkie używane pola będą zadeklarowane jako final, wtedy na pewno struktura będzie niezmienialna).  Niech operacje takie jak size() i isEmpty() działają w czasie stałym.  Zauważ, że gdyby to były drzewa zrównoważone (AVL lub czerwono-czarne), to mielibyśmy niezmienialny zbiór z wszystkimi operacjami w czasie logarytmicznym.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Dla chętnych:&lt;/b&gt; zachęcam do dalszej pracy nad notatnikiem (z poprzedniego labu). Najważniejszym elementem jest wczytywanie/zapisywanie danych w pliku.&lt;/p&gt;
+
+&lt;p&gt;warto poczytać o wzorcach: visitor (pattern), strategy observer, factory, singleton, decorator, adapter. Wszystkie można znaleźć &lt;a href=&#34;http://wikipedia.org&#34;&gt;tutaj&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Ćwiczenia&lt;/h2&gt;
+
+&lt;p&gt;Lista z filtrowaniem (sito arystotelesa)&lt;/p&gt;
+
+&lt;p&gt;Graf na kolekcji&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>zajęcia 13 - strumienie</title>
       <link>https://franaszek.github.io/project/zajecia-13/</link>
       <pubDate>Tue, 06 Jun 2017 15:41:13 +0200</pubDate>
@@ -505,45 +532,6 @@ Na ćwiczeniach rozwiążemy problem podziału skarbów przez bilba. (zadanie z 
 
 &lt;p&gt;&lt;h4&gt;Pierwsza praca domowa (1pkt)&lt;/h4&gt;
 Zaprojektuj w DIA diagram klas reprezentujący grę w pokera. Uwzględnij klasy abstrakcyjne, publiczność/prywatność metod (+, -, #), generalizację i agregację. Termin oddania : 2017-03-15.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>zajęcia 1 - Wstęp</title>
-      <link>https://franaszek.github.io/project/zajecia-1/</link>
-      <pubDate>Wed, 01 Mar 2017 14:02:31 +0100</pubDate>
-      
-      <guid>https://franaszek.github.io/project/zajecia-1/</guid>
-      <description>&lt;h2&gt;2017-01-03&lt;/h2&gt; 
-
-&lt;p&gt;&lt;h4&gt;Lab&lt;/h5&gt;
-&lt;div&gt;
-Na zajęciach omówimy projektowanie obiektowe na przykładzie &amp;ldquo;Pojazdów&amp;rdquo; - struktury drzewiastej reprezentującej dziedziczenie.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Wprowadzimy:
-&lt;lu&gt;
- &lt;li&gt;notację pudełkową dla klas&lt;/li&gt;
- &lt;li&gt;strzałki do wyrażania podobieństwa (dziedziczenia)&lt;/li&gt;
- &lt;li&gt;podział na cechy/czynności&lt;/li&gt;
- &lt;li&gt;pojęcia abstrakcyjne (oznaczamy wielką literą A w kółku)&lt;/li&gt;
-&lt;/lu&gt;
-&lt;br /&gt;
-Będziemy pracować z &lt;a href=&#34;https://sourceforge.net/projects/dia-installer/&#34;&gt;DIA&lt;/a&gt;&lt;br /&gt;
-Dla zainteresowanych, więcej o diagramach klas można poczytać np tutaj:
-&lt;a href=&#34;https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/&#34;&gt;https://www.ibm.com/...&lt;/a&gt;
-&lt;br /&gt;
-Polecam też ważniaka:
-&lt;a href=&#34;http://wazniak.mimuw.edu.pl/index.php?title=Programowanie_obiektowe&#34;&gt;http://wazniak.mimuw.edu.pl/...&lt;/a&gt;
-&lt;br /&gt;
-A przede wszystkim moodle:
-&lt;a href=&#34;https://moodle.mimuw.edu.pl/course/view.php?id=14&#34;&gt;https://moodle.mimuw.edu.pl/...&lt;/a&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h4&gt;Ćwiczenia&lt;/h4&gt;
-Na ćwiczeniach omówimy przykładowe interfejsy dla Kolejki, Stosu i Grafu. Wykorzystamy Kolejkę i Stos do zaimplementowania BFS i DFS&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
